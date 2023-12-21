@@ -4,6 +4,7 @@ const schema = mongoose.Schema(
   {
     name: String,
     job: String,
+    id: String,
   },
   {
     collection: "Employees",
